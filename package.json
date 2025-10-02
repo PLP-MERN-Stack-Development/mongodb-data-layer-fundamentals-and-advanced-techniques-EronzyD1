@@ -1,0 +1,13 @@
+{
+  "name": "plp-bookstore-mongo-week1",
+  "version": "1.0.0",
+  "description": "Week 1 MongoDB fundamentals with bookstore mock data",
+  "scripts": {
+    "seed": "node insert_books.js",
+    "queries": "node queries.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0"
+  }
+}
